@@ -81,6 +81,43 @@ header {
   margin: 30px;
 }
 
+#current-data {
+  background-color: lightgreen;
+  float: left;
+  margin-left: 30px;
+  margin-top: 25px;
+  width: 700px;
+  height: 550px;
+}
+
+#data-header {
+  color: black;
+  list-style: none;
+  font-size: 75px;
+  margin: 30px;
+}
+
+#total-budget {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
+#total-expenses {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
+#recc-savings {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
 button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -90,5 +127,19 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+<<<<<<< HEAD
   width: 100%;
+=======
+}
+
+download {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+>>>>>>> 2c96a31cf16fbac635177f71c85d7c8e9c92cbd1
 }
