@@ -1,0 +1,68 @@
+header {
+    background-color: #33ae17; /* Set the background color */
+    color: #fff; /* Set the font color */
+    padding: 20px; /* Add some padding */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Align items to the left and right */
+  }
+  
+  h1 {
+    margin: 0; /* Remove any margin */
+    font-size: 24px; /* Set the font size */
+  }
+  
+  nav ul {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    list-style: none; /* Remove the bullet points */
+  }
+  
+  nav li {
+    display: inline-block; /* Display the items horizontally */
+    margin-left: 20px; /* Add some space between the items */
+  }
+  
+  nav li:first-child {
+    margin-left: 0; /* Remove the left margin for the first item */
+  }
+  
+  nav a {
+    color: #fff; /* Set the font color */
+    text-decoration: none; /* Remove the underline */
+    font-size: 18px; /* Set the font size */
+  }
+  
+
+#tips {
+  background-color: grey;
+  float: right;
+  margin-right: 30px;
+  margin-top: 25px;
+  width: 700px;
+  height: 400px;
+}
+
+#tip-header {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#tipofday {
+  text-align: center;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
