@@ -32,16 +32,42 @@ header {
     font-size: 18px; /* Set the font size */
   }
   
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.rightcontainer {
+  background-color: purple;
+  float: right;
+  width: 40%;
+  height: 100%;
+  margin-right: 30px;
+  margin-top: 25px;
+}
 
 .container {
   background-color: white;
   float: right;
-  margin-right: 30px;
-  margin-top: 25px;
-  width: 40%;
-  height: 50%;
 }
 
+.createbutton {
+  font-size: 50px;
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.tipbutton {
+  width: 100%;
+}
 #info {
   background-color: grey;
   float: right;
@@ -116,17 +142,6 @@ header {
   list-style: none;
   font-size: 40px;
   margin: 30px;
-}
-
-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 download {
