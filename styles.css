@@ -127,9 +127,6 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-<<<<<<< HEAD
-  width: 100%;
-=======
 }
 
 download {
@@ -141,5 +138,4 @@ download {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
->>>>>>> 2c96a31cf16fbac635177f71c85d7c8e9c92cbd1
 }
