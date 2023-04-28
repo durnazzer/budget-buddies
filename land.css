@@ -47,7 +47,7 @@ header {
 }
   
 
-#tips {
+#main {
 /*  make a light green div that fills the whole page */
   background-color: lightgreen;
   width: 100%;
@@ -60,7 +60,7 @@ header {
 }
 
 
-#tip-header {
+#main-header {
   color: black;
   font-size: 75px;
   text-align: center;
@@ -68,7 +68,7 @@ header {
 }
 
 
-#tipofday {
+#slogan {
   text-align: center;
   list-style: none;
   font-family: "Monaco",Monospace;

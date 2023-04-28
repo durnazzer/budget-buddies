@@ -51,7 +51,7 @@ html, body {
         text-decoration: underline;
     }
   
-  #tips {
+  #main {
   /*  make a light green div that fills the whole page */
     background-color: lightgreen;
     width: 100%;
