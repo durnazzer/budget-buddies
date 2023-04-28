@@ -62,3 +62,13 @@ html, body {
     text-align: center;
     padding-top: 30px;
   }
+
+  #page-header {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-style: italic;
+
+  }
