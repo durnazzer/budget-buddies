@@ -1,3 +1,11 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 header {
     background-color: #33ae17; /* Set the background color */
     color: #fff; /* Set the font color */
@@ -35,38 +43,25 @@ header {
   
 
 #tips {
+/*  make a light green div that fills the whole page */
   background-color: lightgreen;
-  float: middle;
-  font-family: "Monaco", Monospace;
-  margin-top: 30px;
-  text-align:center;
+  width: 100%;
+  height: 100%;
+  font-family: "Monaco",Monospace;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
 }
 
-#info {
-  background-color: grey;
-  float: right;
-  margin-right: 30px;
-  font-family: "Monaco",Monospace;
-  margin-top: 25px;
-  width: 700px;
-  height: 500px;
-}
 
 #tip-header {
   color: black;
   font-size: 75px;
   text-align: center;
   font-family: "Monaco",Monospace;
-  margin-top: 25px;
 }
 
-#info-header {
-  color: black;
-  font-size: 75px;
-  text-align: center;
-  font-family: "Monaco",Monospace;
-  margin-top: 25px;
-}
 
 #tipofday {
   text-align: center;
@@ -76,74 +71,29 @@ header {
   margin: 30px;
 }
 
-
-#infotext {
-  text-align: left;
-  color: black;
-  list-style: none;
+/* Create Budget Button */
+.budget-button {
+  background-color: white;
+  color: #33ae17;
+  border: 2px solid #33ae17;
+  border-radius: 12px;
   font-family: "Monaco",Monospace;
-  font-size: 16px;
-  margin: 30px;
-}
-
-#current-data {
-  background-color: lightgreen;
-  float: left;
-  margin-left: 30px;
-  font-family: "Monaco",Monospace;
-  margin-top: 25px;
-  width: 700px;
-  height: 550px;
-}
-
-#data-header {
-  color: black;
-  list-style: none;
-  font-family: "Monaco",Monospace;
-  font-size: 75px;
-  margin: 30px;
-}
-
-#total-budget {
-  color: black;
-  list-style: none;
-  font-size: 40px;
-  margin: 30px;
-}
-
-#total-expenses {
-  color: black;
-  list-style: none;
-  font-size: 40px;
-  margin: 30px;
-}
-
-#recc-savings {
-  color: black;
-  list-style: none;
-  font-size: 40px;
-  margin: 30px;
-}
-
-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Monaco",Monospace;
-  display: inline-block;
-  font-size: 30px;
-}
-
-download {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  padding: 20px;
+  margin: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 900px;
+  height: 300px;
+  font-size: 50px;
+}
+
+.budget-button:hover {
+  /* make the button invert color whne you hover over it */
+  background-color: #33ae17;
+  color: white;
+  transition: 0.5s;
+
 }
