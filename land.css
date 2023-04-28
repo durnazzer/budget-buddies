@@ -1,0 +1,149 @@
+header {
+    background-color: #33ae17; /* Set the background color */
+    color: #fff; /* Set the font color */
+    padding: 20px; /* Add some padding */
+    font-family: "Monaco",Monospace;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Align items to the left and right */
+  }
+  
+  h1 {
+    margin: 0; /* Remove any margin */
+    font-size: 24px; /* Set the font size */
+  }
+  
+  nav ul {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    list-style: none; /* Remove the bullet points */
+  }
+  
+  nav li {
+    display: inline-block; /* Display the items horizontally */
+    margin-left: 20px; /* Add some space between the items */
+  }
+  
+  nav li:first-child {
+    margin-left: 0; /* Remove the left margin for the first item */
+  }
+  
+  nav a {
+    color: #fff; /* Set the font color */
+    text-decoration: none; /* Remove the underline */
+    font-size: 18px; /* Set the font size */
+  }
+  
+
+#tips {
+  background-color: lightgreen;
+  float: middle;
+  font-family: "Monaco", Monospace;
+  margin-top: 30px;
+  text-align:center;
+}
+
+#info {
+  background-color: grey;
+  float: right;
+  margin-right: 30px;
+  font-family: "Monaco",Monospace;
+  margin-top: 25px;
+  width: 700px;
+  height: 500px;
+}
+
+#tip-header {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Monaco",Monospace;
+  margin-top: 25px;
+}
+
+#info-header {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Monaco",Monospace;
+  margin-top: 25px;
+}
+
+#tipofday {
+  text-align: center;
+  list-style: none;
+  font-family: "Monaco",Monospace;
+  font-size: 40px;
+  margin: 30px;
+}
+
+
+#infotext {
+  text-align: left;
+  color: black;
+  list-style: none;
+  font-family: "Monaco",Monospace;
+  font-size: 16px;
+  margin: 30px;
+}
+
+#current-data {
+  background-color: lightgreen;
+  float: left;
+  margin-left: 30px;
+  font-family: "Monaco",Monospace;
+  margin-top: 25px;
+  width: 700px;
+  height: 550px;
+}
+
+#data-header {
+  color: black;
+  list-style: none;
+  font-family: "Monaco",Monospace;
+  font-size: 75px;
+  margin: 30px;
+}
+
+#total-budget {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
+#total-expenses {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
+#recc-savings {
+  color: black;
+  list-style: none;
+  font-size: 40px;
+  margin: 30px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Monaco",Monospace;
+  display: inline-block;
+  font-size: 30px;
+}
+
+download {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
