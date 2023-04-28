@@ -17,7 +17,7 @@ header {
   
   h1 {
     margin: 0; /* Remove any margin */
-    font-size: 24px; /* Set the font size */
+    font-size: 30px; /* Set the font size */
   }
   
   nav ul {
@@ -38,8 +38,13 @@ header {
   nav a {
     color: #fff; /* Set the font color */
     text-decoration: none; /* Remove the underline */
-    font-size: 18px; /* Set the font size */
+    font-size: 20px; /* Set the font size */
   }
+
+  a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
   
 
 #tips {
