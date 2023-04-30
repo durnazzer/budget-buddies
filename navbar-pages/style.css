@@ -78,3 +78,20 @@ html, body {
   padding: 20%;
   padding-top: 2%;
 }
+
+  .column {
+    float: left;
+    text-align: left;
+    width: 50%;
+  }
+
+  #cols {
+    width: 90%;
+    height: 90%;
+    margin-left: 50px;
+    margin-right:50px;
+  }
+
+  /* Clear floats after the columns */
+
+

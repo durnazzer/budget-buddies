@@ -80,7 +80,6 @@ html, body {
     height: fit-content;
     margin: auto;
     padding: 10px;
-    background-color: grey;
     color: white;
     font-family: "Monaco",Monospace;
     font-size: 20px;
@@ -95,25 +94,78 @@ html, body {
     font-family: 'Monaco', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 75px;
     line-height: 64px;
-    padding-top: 25px; 
-    /* identical to box height */
-
-
+    font-weight: bold;
   }
 
   #question-header2 {
     text-align: center;
-    color: black;
-
+    color: white;
     font-family: 'Monaco', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 64px;
-    padding-top: 50px;
+    padding-top: 25px;
+  }
 
+  #answers {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
+  .answer-choice {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 30px;    
+  }
 
+  .answer-choice:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .next-button {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 30px;    
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+
+  .next-button:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
   }
