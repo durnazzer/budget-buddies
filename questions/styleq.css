@@ -102,6 +102,8 @@ html, body {
   #question-header2 {
     text-align: center;
     color: white;
+    width: 75%;
+    margin: auto;
     font-family: 'Monaco', monospace;
     font-style: normal;
     font-weight: 400;
