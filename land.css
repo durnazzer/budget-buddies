@@ -90,8 +90,8 @@ header {
   display: inline-block;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
-  width: 900px;
-  height: 300px;
+  width: 50vw;
+  height: 20vh;
   font-size: 50px;
 }
 
