@@ -58,7 +58,7 @@ html, body {
     height: 100%;
     font-family: "Monaco",Monospace;
     font-size: 20px;
-    color: white;
+    color: green;
     text-align: center;
     padding-top: 30px;
   }
@@ -67,7 +67,7 @@ html, body {
     text-align: center;
     color: black;
     font-size: 75px;
-    font-family: 'Racing Sans One';
+    font-family: "Monaco",Monospace;
     font-style: normal;
     font-style: italic;
 
@@ -76,7 +76,15 @@ html, body {
   .column {
     float: left;
     text-align: left;
-    width: 50%;
+  }
+
+  .left {
+    font-weight: bold;
+    width: 25%;
+  }
+
+  .right {
+    width: 75%;
   }
 
   #cols {
@@ -86,5 +94,12 @@ html, body {
     margin-right:50px;
   }
 
-  /* Clear floats after the columns */
+#tips {
+    width: 90%;
+    height: 90%;
+    margin-left: 50px;
+    margin-right:50px;
+    align-content: center;
+}
+  
 
