@@ -50,8 +50,8 @@ header {
 #main {
 /*  make a light green div that fills the whole page */
   background-color: lightgreen;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   font-family: "Monaco",Monospace;
   font-size: 20px;
   color: white;
@@ -76,6 +76,11 @@ header {
   margin: 30px;
 }
 
+#creat-button {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
 /* Create Budget Button */
 .budget-button {
   background-color: white;
