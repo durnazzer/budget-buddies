@@ -199,6 +199,7 @@ html, body {
 
   #results {
     width: fit-content;
+    color: darkgreen;
     height: fit-content;
     font-size: 30px;
     margin: auto;
