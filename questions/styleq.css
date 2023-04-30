@@ -114,7 +114,7 @@ html, body {
 
   #answers {
     width: fit-content;
-    height: fit-content;
+    height: 50vh;
     margin: auto;
     padding: 10px;
     text-align: center;
