@@ -72,3 +72,9 @@ html, body {
     font-style: italic;
 
   }
+
+#infop {
+  color: darkgreen;
+  padding: 20%;
+  padding-top: 2%;
+}
