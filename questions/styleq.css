@@ -169,3 +169,28 @@ html, body {
     color: white;
     transition: 0.3s;
   }
+
+  .prev-button {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 30px;    
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+
+  .prev-button:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
+  }
