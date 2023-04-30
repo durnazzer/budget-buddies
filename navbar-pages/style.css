@@ -73,6 +73,12 @@ html, body {
 
   }
 
+#infop {
+  color: darkgreen;
+  padding: 20%;
+  padding-top: 2%;
+}
+
   .column {
     float: left;
     text-align: left;
@@ -87,4 +93,5 @@ html, body {
   }
 
   /* Clear floats after the columns */
+
 
